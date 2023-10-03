@@ -1,0 +1,43 @@
+*,
+*::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(#2222ff 60%, #c8c8fa);
+} 
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+.title-app {
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-decoration: underline;
+}
+.weather-option {
+  font-size: 24px;
+  transition: all 0.3s;
+}
+.weather-option:hover {
+  color: #000
+}
+.weather-card {
+  border: 1px solid #fff; 
+  margin: 10px;
+  padding: 10px;
+}
+.search-button:hover {
+  background-color: gray;
+}
